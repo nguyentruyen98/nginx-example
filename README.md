@@ -128,3 +128,7 @@ nginx -t # Check the syntax of the config file
 nginx -s reload # Reload Nginx.
 ```
 - Now when you send request to `http://localhost:8080/` nginx will handle this request and send it to `https://google.com/` and wait for the response from `https://google.com/`. And finally nginx will send the response to the browser and you can see Google page on your browser.
+
+Ref link
++ [Viblo](https://viblo.asia/p/cau-hinh-nginx-server-nhu-the-nao-ByEZko0xZQ0)
++ [Nginx full example](https://www.nginx.com/resources/wiki/start/topics/examples/full/)
